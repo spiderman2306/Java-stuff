@@ -1,0 +1,33 @@
+**Hospital Emergency Room System (Java)**
+
+This project is a Java implementation of a **Hospital Emergency Room System** designed to demonstrate the practical use of **custom data structures**. The system simulates real-world hospital operations using a **queue** and a **stack**, both implemented manually with **linked lists** (without relying on Java’s built-in Stack or Queue classes).
+
+#### 🔹 Key Features
+
+* **Queue-based patient management**
+
+  * Patients are admitted in arrival order
+  * Emergency patients are prioritized ahead of normal patients
+* **Stack-based undo functionality**
+
+  * Allows reversal of the most recent treatment to simulate real-life correction of medical decisions
+* **Custom data structures**
+
+  * `QueueAsMyLinkedList` for patient flow
+  * `StackAsMyLinkedList` for undo operations
+* Fully tested using a dedicated test class
+
+#### 🔹 Functionalities Implemented
+
+* Admit normal and emergency patients
+* Treat patients in correct priority order
+* Undo the most recent treatment
+* Handle edge cases (e.g. treating when the queue is empty)
+* Display current system status (queue and stack)
+
+#### 🔹 Purpose
+
+This assignment was completed as part of a **Computer Science Data Structures module** to reinforce understanding of **linked lists, stacks, queues, and real-world problem modeling** using Java.
+
+📂 **Technologies:** Java
+📚 **Concepts:** Linked Lists, Stack, Queue, Priority Handling, Object-Oriented Design
